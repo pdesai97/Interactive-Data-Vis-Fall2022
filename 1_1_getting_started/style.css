@@ -1,20 +1,44 @@
 body {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px;
+  font-family: sans-serif;
   padding: 1em;
 }
 
 h1 {
+  text-align: center;
   font-size: 3em;
   margin: 0.25em 0;
+  text-decoration: underline;
+  text-decoration-color: red;
 }
 
 h3 {
   font-size: 2em;
   margin: 0.25em 0;
+  padding-left: 10em;
+  color: grey;
+}
+
+h5{
+  font-size: 1.5em;
+  padding-left: 14em;
+  margin: 0.25em 0;
+  color: darkblue;
 }
 
 p {
   font-size: 1em;
-  color: pink;
+  margin-top: 15em;
+  text-align: center;
+  color: blue;
+}
+
+.button{
+  font-size: 20px;
+  padding-top: 0em;
+  margin: 0em 32.5em;
+  background-color: yellow;
+  color: black;
+  border: none;
+  text-align: center;
+
 }
