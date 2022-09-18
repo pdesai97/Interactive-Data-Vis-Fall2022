@@ -18,3 +18,23 @@ h3 {
 p {
   font-size: 1em;
 }
+
+table{
+  text-align: center;
+  border: 1px solid black;
+}
+
+tr{
+  text-align: center;
+  border: 1px solid black;
+}
+
+td{
+  text-align: center;
+  border: 1px solid black;
+}
+
+th{
+  text-align: center;
+  border: 1px solid black;
+}
