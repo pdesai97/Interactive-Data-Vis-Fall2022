@@ -9,13 +9,21 @@
 <body>
   <h1>Hello World!</h1>
   <h3>Tutorial Assignment: 1_3_intro_to_js </h3>
-  <form action="/action_page.php">
-    <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="fname" value=""><br>
-    <label for="lname">Last name:</label><br>
-    <input type="text" id="lname" name="lname" value=""><br><br>
-    <input type="button" value="Register" class="button" onclick="alert('You have registered!')">
-  </form> 
-  <script src="main.js"></script>
+  <div>
+    <p>Count of Button Clicked: <a id="clicks">0</a></p>
+  </div>
+  <div>
+    <button type="button" class="button" onClick="cnt()">Click me</button>
+  </div>
+
+
+  <script type="text/javascript">
+    var count = 0;
+    function cnt() {
+        count += 1;
+        document.getElementById("clicks").innerHTML = count;
+    };
+  </script>
+
 </body>
 </html>
