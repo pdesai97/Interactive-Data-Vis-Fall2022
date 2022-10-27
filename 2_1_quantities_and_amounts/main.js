@@ -1,6 +1,6 @@
 
 /* CONSTANTS AND GLOBALS */
-const margin = {top: 20, right: 30, bottom: 40, left: 90};
+const margin = {top: 60, right: 30, bottom: 40, left: 90};
 const width = 700 - margin.left - margin.right;
 const height = 500 - margin.top - margin.bottom;
 
@@ -68,10 +68,28 @@ svg.selectAll("rect.bar")
     
 svg.append("text")
     .attr("x", width/2)
-    .attr("y", 0 - margin.top)
+    .attr("y", 40 - margin.top)
     .attr("text-anchor", "middle")
     .style("fill", "red")
-    .style("font-size", "16px")
-    .text("First Barchart");
+    .style("font-size", "3em")
+    .text("First Barchart")
+    
+svg.append("text")
+    .attr("class", "x label")
+    .attr("text-anchor", "end")
+    .attr("x", width)
+    .attr("y", height - 6)
+    .style("font-size", "1.5em")
+    .text("Count")
+
+svg.append("text")
+    .attr("class", "y label")
+    .attr("text-anchor", "end")
+    .attr("y", -margin.left+10)
+    .attr("x", -margin.top-100)
+    .attr("dy", ".75em")
+    .attr("transform", "rotate(-90)")
+    .style("font-size", "1.5em")
+    .text("Activity");
 
   })
