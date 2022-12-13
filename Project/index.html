@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>Interactive Data Visualization Tutorial</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body style="background-color: beige;">
+    <div>
+        <span>
+            <h1>Means of Transport by People of NYC</h1>
+        </span>
+    </div>
+    <br>
+    <div>
+    <div class="row">
+        <div class="column1">
+          <h3>NYC Map of Boroughs</h3>
+          <div>
+            <select id = "mybutton" class = "button"></select>
+          </div>
+          <div id = "legend" class = "newleg" style="color: coral;"></div>
+          <div id="map">
+          </div>
+        </div>
+        <div class="column2">
+          <h3>Comparing Transport Methods by Boroughs</h3>
+          <div> <select id = "mybutton1" class = "button"></select>
+            <!-- <p>
+              <select id="d3-dropdown" class = "button"> 
+                <option value="Drive">Drive</option>
+                <option value="Carpool">Carpool</option>
+                <option value="Transit">Transit</option>
+                <option value="Walk">Walk</option>
+                <option value="OtherTransp">Other Transport</option>
+                <option value="WorkAtHome">Work At Home</option>
+              </select>
+            </p>
+            <p id="selected-dropdown"></p> -->
+            </div>
+            <div class = "row">
+          <div class = "column3">
+            <div id = "bar">
+            </div>
+          </div>
+          <div class = "column4">
+            <div id = "text"></div>
+            <div id = "text1"></div>
+            <div id = "text2"></div>
+          </div>
+          </div>
+        </div>
+        </div>
+        </div>
+    <script src="../lib/d3.js"></script>
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+  </body>
+</html>
