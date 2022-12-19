@@ -1,6 +1,6 @@
-activity,count
-running,730
-chasing,279
-climbing,658
-eating,760
-foraging,1435
+activity,spring_count,winter_count,fall_count,summer_count
+running,730,420,679,804
+chasing,290,245,301,279
+climbing,698,470,658,736
+eating,760,822,760,740
+foraging,1435,1267,1343,1620
