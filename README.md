@@ -4,7 +4,7 @@
 ## List of Tutorials and Project
 
 
-| Section | Tutorial | Topic | Class Code | Deployed Link 
+| Section | Tutorial | Topic | Class Code | Deployed Link |
 | ------ | ------ | ----- | ------ | ----- | ----- |
 | Section 1 | Tutorial 1 | Getting Started | [Tutorial 1](https://github.com/pdesai97/Interactive-Data-Vis-Fall2022/blob/main/1_1_getting_started) | [Tutorial 1](https://pdesai97.github.io/Interactive-Data-Vis-Fall2022/1_1_getting_started/index.html) 
   | Section 1 | Tutorial 2 | Basic HTML | [Tutorial 2](https://github.com/pdesai97/Interactive-Data-Vis-Fall2022/blob/main/1_2_basic_html) | [Tutorial 2](https://pdesai97.github.io/Interactive-Data-Vis-Fall2022/1_2_basic_html/index.html)
