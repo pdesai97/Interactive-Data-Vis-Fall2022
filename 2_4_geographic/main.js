@@ -42,7 +42,7 @@ const state = svg.selectAll("path.state")
     .join("path")
     .attr("class", "state")
     .attr("d", coords => path(coords))
-    .attr("fill", "darkblue")
+    .attr("fill", "transparent")
     .attr("stroke", "orange")
   
   // APPEND DATA AS SHAPE
