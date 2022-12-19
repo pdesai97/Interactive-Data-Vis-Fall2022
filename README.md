@@ -1,5 +1,19 @@
 # Interactive-Data-Vis-Fall2022
 
+FINAL REFLECTION
+
+I started this course with two major goals and although I have a long way to go, I feel I made a great progress in both of them. The first one was learning of D3.js as it is a tough language in the data visualization. The second one was to understand the difference between D3 against Tableau, Looker and PowerBi in terms of chart build ups and complexity. The tutorials and the project allowed me to be comfortable with my understanding and helped me to achieve my goals.
+
+My project is based on a simple census dataset about different methods of transportation people use currently in the Boroughs of New York City. I chose exploratory method of visualization for my dashboard as it is suitable for what I intend to show. 
+
+Having come from abroad, I am thrilled to be living in one of the liveliest cities in the world and experiencing the details of the city which most people can watch only in the movies. Though this fascination doesn’t last long but the curiosity of how the people of different boroughs of NYC working and residing differently, live unto the pace of NYC(as it is a fast life city) excites me.  That is how I came across this data set where I can see which transport method is used by how many people in different boroughs.
+
+The data set included Borough Names and their counties, Total population living in different parts of different boroughs, Various methods used by people in those regions. Along with it, I used geojson file to plot NYC map. to show some more understanding of the dashboard.
+
+I have implemented two different charts, one being the bar chart, other is a map. I tried making both the visuals a bit interactive by choices selected by the user. I had also imagined of creating a legend or providing some features which could actually grab the attention of the viewer but I could not do all within the time I had. I provided some features like a legend on the map.
+
+With the knowledge gained during the class and upon working on the tutorials and project, I feel confident enough on taking up new challenges on D3.
+
 
 ## List of Tutorials and Project
 
