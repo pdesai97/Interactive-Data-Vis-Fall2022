@@ -1,6 +1,6 @@
 # Interactive-Data-Vis-Fall2022
 
-FINAL REFLECTION
+## FINAL REFLECTION
 
 I started this course with two major goals and although I have a long way to go, I feel I made a great progress in both of them. The first one was learning of D3.js as it is a tough language in the data visualization. The second one was to understand the difference between D3 against Tableau, Looker and PowerBi in terms of chart build ups and complexity. The tutorials and the project allowed me to be comfortable with my understanding and helped me to achieve my goals.
 
